@@ -1,0 +1,20 @@
+{
+  "name": "steam_ui_tests",
+  "version": "1.0.0",
+  "description": "Repositório dedicado aos testes de interface gráfica feitos no site da loja web de jogos Steam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
