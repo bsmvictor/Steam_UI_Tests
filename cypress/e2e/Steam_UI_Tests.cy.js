@@ -18,7 +18,7 @@ describe("Execução de ações na interface gráfica do site", () => {
     cy.go("back");
   }
 
-  it.skip("Teste de pesquisa de jogos existentes", () => {
+  it("Teste de pesquisa de jogos existentes", () => {
     cy.visit("https://store.steampowered.com/?l=portuguese");
 
     jogos.forEach((jogo) => {
@@ -58,7 +58,7 @@ describe("Execução de ações na interface gráfica do site", () => {
     cy.go("back");
   }
 
-  it.skip("Teste de pesquisa de jogos inexistentes", () => {
+  it("Teste de pesquisa de jogos inexistentes", () => {
     cy.visit("https://store.steampowered.com/?l=portuguese");
 
     jogosInexistentes.forEach((jogo) => {
